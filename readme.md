@@ -7,7 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Информация по установке
+- git clone https://github.com/zhinko/laravel.git
+- cd laravel
+- composer self-update
+- composer install
+- из файла .env.example создать файл .env
+- создать базу с именем laravel
+- php artisan migrate
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
